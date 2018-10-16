@@ -92,7 +92,7 @@ def backtrack_color(G, coloring = None, level = 1, chro_num = None):
             else:
 
                 #Add the solution to the list
-                colorings.append(coloring)
+                colorings.append(coloring.copy())
                 
 
 def legal_color(node, color, coloring):
